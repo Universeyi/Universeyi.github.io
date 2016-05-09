@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!-->
-<html lang="en">
+<html lang="kor">
 <!--<![endif]-->
 	<head>
 		<meta charset="utf-8">
-		<title>志勇公司</title>
-		<meta name="description" content="Worthy a Bootstrap-based, Responsive HTML5 Template">
+		<title>신바람 소프트</title>
+		<meta name="description" content="sinbarasoft, 신바람소프트 홈페이지입니다.">
 		<meta name="author" content="htmlcoder.me">
-
+		 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<!-- Mobile Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -31,7 +31,7 @@
 		<!-- Worthy core CSS file -->
 		<link href="css/style.css" rel="stylesheet">
 
-		<!-- Custom css -->
+		<!-- Custom css --> 
 		<link href="css/custom.css" rel="stylesheet">
 	</head>
 
@@ -41,7 +41,7 @@
 		<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
 
 		<!-- header start -->
-		<!-- ================ -->
+		<!-- ================ --> 
 		<header class="header fixed clearfix navbar navbar-fixed-top">
 			<div class="container">
 				<div class="row">
@@ -52,14 +52,16 @@
 						<div class="header-left clearfix">
 
 							<!-- logo -->
+							<!-- 로고 이미지 -->
 							<div class="logo smooth-scroll">
-								<a href="#banner"><img id="logo" src="images/logo.png" alt="Worthy"></a>
+								<a href="#banner"><img id="logo" src="images/sin_logo.png" alt="sinbaramsoft" width="60px" height="60px"></a>
 							</div>
 
 							<!-- name-and-slogan -->
+							<!-- 로고 표시 -->
 							<div class="site-name-and-slogan smooth-scroll">
-								<div class="site-name"><a href="#banner">Worthy</a></div>
-								<div class="site-slogan">Free Bootstrap Theme by <a target="_blank" href="http://htmlcoder.me">HtmlCoder</a></div>
+								<div class="site-name"><a href="#banner">신바람 소프트</a></div>
+								<div class="site-slogan">New Paradigm <a target="_blank" href="http://reposoft.cafe24.com">company</a></div>
 							</div>
 
 						</div>
@@ -95,11 +97,11 @@
 										<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
 											<ul class="nav navbar-nav navbar-right">
 												<li class="active"><a href="#banner">Home</a></li>
-												<li><a href="#about">About</a></li>
-												<li><a href="#services">Services</a></li>
-												<li><a href="#portfolio">Portfolio</a></li>
-												<li><a href="#clients">Clients</a></li>
-												<li><a href="#contact">Contact</a></li>
+												<li><a href="#about">회사소개</a></li>
+												<li><a href="#services">서비스</a></li>
+												<li><a href="#portfolio">포트폴리오</a></li>
+												<li><a href="#clients">구성원</a></li>
+												<li><a href="#contact">문의사항</a></li>
 											</ul>
 										</div>
 
@@ -127,8 +129,8 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 object-non-visible" data-animation-effect="fadeIn">
-							<h1 class="text-center">We are <span>Worthy</span></h1>
-							<p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos debitis provident nulla illum minus enim praesentium repellendus ullam cupiditate reiciendis optio voluptatem, recusandae nobis quis aperiam, sapiente libero ut at.</p>
+							<h1 class="text-center">New <span>Paradigm</span></h1>
+							<p class="lead text-center">사람들의 새로운 견해, 인식을 새로 만들자 </p>
 						</div>
 					</div>
 				</div>
@@ -142,17 +144,17 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h1 id="about" class="title text-center">About <span>Worthy</span></h1>
-						<p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta officia, aspernatur.</p>
+						<h1 id="about" class="title text-center">About</h1>
+						<p class="lead text-center">회사소개 부제</p>
 						<div class="space"></div>
 						<div class="row">
 							<div class="col-md-6">
-								<img src="images/section-image-1.png" alt="">
+								<img src="img/section-image-1.png" alt="">
 								<div class="space"></div>
 							</div>
 							<div class="col-md-6">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi adipisci illo, voluptatum ipsam fuga error commodi architecto, laudantium culpa tenetur at id, beatae placeat deserunt iure quas voluptas fugit eveniet.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ducimus explicabo quibusdam temporibus deserunt doloremque pariatur ea, animi a. Delectus similique atque eligendi, enim vel reiciendis deleniti neque aliquid, sit?</p>
+								<p>첫번재 소개</p>
+								<p>첫번째 소개 2</p>
 								<ul class="list-unstyled">
 									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Lorem ipsum dolor sit amet</li>
 									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Reiciendis deleniti neque aliquid</li>
@@ -162,6 +164,7 @@
 								</ul>
 							</div>
 						</div>
+						<!--
 						<div class="space"></div>
 						<h2>Becessitatibus quae beatae possimus ullam</h2>
 						<div class="row">
@@ -170,6 +173,7 @@
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ducimus explicabo quibusdam temporibus deserunt doloremque pariatur ea, animi a. Delectus similique atque eligendi, enim vel reiciendis deleniti neque aliquid, sit?</p>
 								<p>Vitae dolores quam magnam accusantium nam, voluptatibus expedita delectus, dolorum odio magni ut nemo nihil ex earum pariatur molestias velit eveniet, facere autem saepe aut. Ut minima itaque porro facere. Cumque vitae autem, dignissimos molestiae necessitatibus culpa aliquam deleniti soluta sunt voluptatibus tenetur, unde dolorem eligendi doloribus quibusdam facere totam. Possimus atque deserunt numquam aliquam magnam, facilis officiis illo alias ipsa voluptas laborum, praesentium eveniet nobis velit voluptatem odio eligendi, corporis et iste distinctio! Repellendus, id, ad.</p>
 							</div>
+							<!--
 							<div class="col-md-6">
 								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 									<div class="panel panel-default">
@@ -216,6 +220,8 @@
 									</div>
 								</div>
 							</div>
+						-->
+							
 						</div>
 					</div>
 				</div>
@@ -227,13 +233,13 @@
 		<!-- ================ -->
 		<div class="section translucent-bg bg-image-1 blue">
 			<div class="container object-non-visible" data-animation-effect="fadeIn">
-				<h1 id="services"  class="text-center title">Worthy Services</h1>
+				<h1 id="services"  class="text-center title">서비스</h1>
 				<div class="space"></div>
 				<div class="row">
 					<div class="col-sm-6">
 						<div class="media">
 							<div class="media-body text-right">
-								<h4 class="media-heading">Service 1</h4>
+								<h4 class="media-heading">안드로이드</h4>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
 							</div>
 							<div class="media-right">
@@ -242,7 +248,7 @@
 						</div>
 						<div class="media">
 							<div class="media-body text-right">
-								<h4 class="media-heading">Service 2</h4>
+								<h4 class="media-heading">C# </h4>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
 							</div>
 							<div class="media-right">
@@ -251,7 +257,7 @@
 						</div>
 						<div class="media">
 							<div class="media-body text-right">
-								<h4 class="media-heading">Service 3</h4>
+								<h4 class="media-heading">C++</h4>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
 							</div>
 							<div class="media-right">
@@ -329,10 +335,10 @@
 		<!-- ================ -->
 		<div class="section">
 			<div class="container">
-				<h1 class="text-center title" id="portfolio">Portfolio</h1>
+				<h1 class="text-center title" id="portfolio">포트폴리오</h1>
 				<div class="separator"></div>
-				<p class="lead text-center">Lorem ipsum dolor sit amet laudantium molestias similique.<br> Quisquam incidunt ut laboriosam.</p>
-				<br>
+				<!--<p class="lead text-center">Lorem ipsum dolor sit amet laudantium molestias similique.<br> Quisquam incidunt ut laboriosam.</p>-->
+				<br>			
 				<div class="row object-non-visible" data-animation-effect="fadeIn">
 					<div class="col-md-12">
 
@@ -428,7 +434,7 @@
 								</div>
 								<!-- Modal end -->
 							</div>
-
+							
 							<div class="col-sm-6 col-md-3 isotope-item web-design">
 								<div class="image-box">
 									<div class="overlay-container">
@@ -468,7 +474,7 @@
 								</div>
 								<!-- Modal end -->
 							</div>
-
+							
 							<div class="col-sm-6 col-md-3 isotope-item site-building">
 								<div class="image-box">
 									<div class="overlay-container">
@@ -508,7 +514,7 @@
 								</div>
 								<!-- Modal end -->
 							</div>
-
+							
 							<div class="col-sm-6 col-md-3 isotope-item app-development">
 								<div class="image-box">
 									<div class="overlay-container">
@@ -548,7 +554,7 @@
 								</div>
 								<!-- Modal end -->
 							</div>
-
+							
 							<div class="col-sm-6 col-md-3 isotope-item web-design">
 								<div class="image-box">
 									<div class="overlay-container">
@@ -588,7 +594,7 @@
 								</div>
 								<!-- Modal end -->
 							</div>
-
+							
 							<div class="col-sm-6 col-md-3 isotope-item site-building">
 								<div class="image-box">
 									<div class="overlay-container">
@@ -628,7 +634,7 @@
 								</div>
 								<!-- Modal end -->
 							</div>
-
+							
 							<div class="col-sm-6 col-md-3 isotope-item web-design">
 								<div class="image-box">
 									<div class="overlay-container">
@@ -831,7 +837,7 @@
 
 						</div>
 						<!-- portfolio items end -->
-
+					
 					</div>
 				</div>
 			</div>
@@ -842,7 +848,7 @@
 		<!-- ================ -->
 		<div class="section translucent-bg bg-image-2 pb-clear">
 			<div class="container object-non-visible" data-animation-effect="fadeIn">
-				<h1 id="clients" class="title text-center">Clients</h1>
+				<h1 id="clients" class="title text-center">구성원</h1>
 				<div class="space"></div>
 				<div class="row">
 					<div class="col-md-4">
@@ -851,7 +857,7 @@
 								<img src="images/testimonial-1.png" alt="">
 							</div>
 							<div class="media-body">
-								<h3 class="media-heading">You are Amazing!</h3>
+								<h3 class="media-heading">장석찬</h3>
 								<blockquote>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo.</p>
 									<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
@@ -865,7 +871,7 @@
 								<img src="images/testimonial-2.png" alt="">
 							</div>
 							<div class="media-body">
-								<h3 class="media-heading">Yeah!</h3>
+								<h3 class="media-heading">최민구!</h3>
 								<blockquote>
 									<p>Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus.</p>
 									<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
@@ -879,7 +885,7 @@
 								<img src="images/testimonial-3.png" alt="">
 							</div>
 							<div class="media-body">
-								<h3 class="media-heading">Thank You!</h3>
+								<h3 class="media-heading">안시현</h3>
 								<blockquote>
 									<p>Aperiam consequatur quo quis exercitationem reprehenderit suscipit iste placeat.</p>
 									<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
@@ -888,6 +894,8 @@
 						</div>
 					</div>
 				</div>
+				
+				<!--
 				<div class="row">
 					<div class="col-md-4">
 						<div class="media testimonial">
@@ -932,9 +940,13 @@
 						</div>
 					</div>
 				</div>
+				-->
 			</div>
+			
+			
 			<!-- section start -->
 			<!-- ================ -->
+			<!--
 			<div class="translucent-bg blue">
 				<div class="container">
 					<div class="list-horizontal">
@@ -972,7 +984,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div>-->
 			<!-- section end -->
 		</div>
 		<!-- section end -->
@@ -998,19 +1010,19 @@
 			<!-- ================ -->
 			<div class="footer section">
 				<div class="container">
-					<h1 class="title text-center" id="contact">Contact Us</h1>
+					<h1 class="title text-center" id="contact">문의 사항</h1>
 					<div class="space"></div>
 					<div class="row">
 						<div class="col-sm-6">
 							<div class="footer-content">
-								<p class="large">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nam magnam natus tempora cumque, aliquam deleniti voluptatibus voluptas. Repellat vel, et itaque commodi iste ab, laudantium voluptas deserunt nobis.</p>
+								<!--<p class="large">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nam magnam natus tempora cumque, aliquam deleniti voluptatibus voluptas. Repellat vel, et itaque commodi iste ab, laudantium voluptas deserunt nobis.</p>-->
 								<ul class="list-icons">
-									<li><i class="fa fa-map-marker pr-10"></i> One infinity loop, 54100</li>
-									<li><i class="fa fa-phone pr-10"></i> +00 1234567890</li>
-									<li><i class="fa fa-fax pr-10"></i> +00 1234567891 </li>
-									<li><i class="fa fa-envelope-o pr-10"></i> your@email.com</li>
+									<li><i class="fa fa-map-marker pr-10"></i> 양산시 신기동 119-13 웰빙2차 304호</li>
+									<li><i class="fa fa-phone pr-10"></i> 070 - 5033 - 1609</li>
+									<li><i class="fa fa-fax pr-10"></i> 070 - 5033 - 1609 </li>
+									<li><i class="fa fa-envelope-o pr-10"></i> sinbaramsoft@naver.com</li>
 								</ul>
-								<ul class="social-links">
+								<!--<ul class="social-links">
 									<li class="facebook"><a target="_blank" href="https://www.facebook.com/pages/HtmlCoder/714570988650168"><i class="fa fa-facebook"></i></a></li>
 									<li class="twitter"><a target="_blank" href="https://twitter.com/HtmlcoderMe"><i class="fa fa-twitter"></i></a></li>
 									<li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
@@ -1019,12 +1031,12 @@
 									<li class="youtube"><a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube"></i></a></li>
 									<li class="flickr"><a target="_blank" href="http://www.flickr.com"><i class="fa fa-flickr"></i></a></li>
 									<li class="pinterest"><a target="_blank" href="http://www.pinterest.com"><i class="fa fa-pinterest"></i></a></li>
-								</ul>
+								</ul>-->
 							</div>
 						</div>
 						<div class="col-sm-6">
 							<div class="footer-content">
-								<form role="form" id="footer-form">
+								<form role="form" id="footer-form" action="/email/email.php" method="post">
 									<div class="form-group has-feedback">
 										<label class="sr-only" for="name2">Name</label>
 										<input type="text" class="form-control" id="name2" placeholder="Name" name="name2" required>
@@ -1055,7 +1067,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<p class="text-center">Copyright © 2014 Worthy by <a target="_blank" href="http://htmlcoder.me">HtmlCoder</a>.</p>
+							<p class="text-center">사업자 등록번호 : 621 - 22 - 94175  대표 : 장석찬 &nbsp;&nbsp;&nbsp;<a target="_blank" href="http://htmlcoder.me">  신바람소프트 </a>.</p>
 						</div>
 					</div>
 				</div>
@@ -1076,7 +1088,7 @@
 
 		<!-- Isotope javascript -->
 		<script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
-
+		
 		<!-- Backstretch javascript -->
 		<script type="text/javascript" src="plugins/jquery.backstretch.min.js"></script>
 
