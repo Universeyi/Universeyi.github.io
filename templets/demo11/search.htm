@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>搜索页_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link rel="stylesheet" href="/skin/css/style.css" />
+<script src="/skin/js/jquery-1.11.2.min.js" type="text/javascript"/></script>
+<script src="/skin/js/jquery.superslide.2.1.1.source.js" type="text/javascript"></script>
+<script src="/skin/js/left.js"></script>
+<!--[if lte IE 6]><script src="/skin/js/letskillie6.zh_cn.pack.js"></script><![endif]-->
+</head>
+<body>
+<!--头部--> 
+{dede:include filename="head.htm"/} 
+<!--banner-->
+<div class="sub_banner" style="background:url(/skin/images/6.jpg)"></div>
+<!-- 主体 -->
+<div class="sub_content">
+  <div class="sub_content_left">
+    <div class="sub_bt">
+      <h1>快读导航</h1>
+      <h4> MENU</h4>
+    </div>
+    <div class="sub_nav">
+      <ul>
+        {dede:channel type='top' currentstyle="
+        <li class='sub_nav_bj'><a href='~typelink~'>~typename~</a><span><img src='/skin/images/jt.png'/></span></li>
+        "}
+        <li><a href="[field:typeurl/]">[field:typename/]</a><span><img src="/skin/images/jt.png"/></span></li>
+        {/dede:channel}
+      </ul>
+    </div>
+  </div>
+  <div class="sub_content_right">
+    <div class="sub_content_right_top">
+      <div class="sub_content_right_top_top">搜索 <strong style="color:#F00">{dede:global name='keyword' function='RemoveXSS(@me)'/}</strong> 的结果 </div>
+      <div class="sub_content_right_top_below">搜索结果</div>
+    </div>
+    <div class="sub_content_right_below"> {dede:list pagesize ='5'}
+      <div class="news_list clear">
+        <div class="news_list_left"><img alt="[field:title/]" src="[field:picname/]" width="166px" height="98px" /></div>
+        <div class="news_list_right">
+          <h4><a href="[field:arcurl/]" title="[field:title/]">[field:title/]</a></h4>
+          <p><a href="[field:arcurl/]" title="[field:title/]">[field:description function="cn_substr(@me,200)"/]...</a>[<a href="[field:arcurl/]">详情</a>]<span>[field:pubdate function="MyDate('Y-m-d',@me)"/]</span></p>
+        </div>
+      </div>
+      {/dede:list}
+      <div class="clear"></div>
+      <div style="padding-top:15px; text-align:center"> {dede:pagelist listitem="info,index,end,pre,next,pageno" listsize="5"/} </div>
+    </div>
+  </div>
+</div>
+<!-- /主体 --> 
+<!--底部--> 
+{dede:include filename="footer.htm"/}
+</body>
+</html>

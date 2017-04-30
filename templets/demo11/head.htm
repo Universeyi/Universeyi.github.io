@@ -1,0 +1,33 @@
+<div class="welcome">
+  <div class="container"> <span class="welcome1">欢迎访问某某汽车销售公司网站！</span> <span class="phone">{dede:global.cfg_tel/}</span></span> </div>
+</div>
+<div class="header">
+  <div class="container">
+    <div class="logo"><a href="/"><img src="/skin/images/logo.png" /></a></div>
+    <div class="search">
+      <form action="/plus/search.php" name="formsearch">
+        <input type="hidden" name="kwtype" value="0" />
+        <div class="txt1">
+          <input  type="text"  name="q"  onfocus="if(value=='请输入关键词') {value=''}" onblur="if (value=='') {value='请输入关键词'}" value="请输入关键词" />
+        </div>
+        <div class="sub1">
+          <input type="submit" value=" " style=" width:34px; height:34px; cursor:pointer;" />
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<div class="nav" id="nav">
+  <ul class="nav1">
+    <li> <a href="/" target="_self"><img src="/skin/images/icon0.png" />首页</a> </li>
+    {dede:channelartlist typeid='top'}
+    <li> <a href="{dede:field name='typeurl'/}"><img src="/skin/images/icon{dede:field name='typeid'/}.png" />{dede:field name='typename'/}</a>
+      <ul class="nav2">
+        {dede:channel type='son' noself='yes'}
+        <li><a href="[field:typeurl/]">[field:typename/]</a></li>
+        {/dede:channel}
+      </ul>
+    </li>
+    {/dede:channelartlist}
+  </ul>
+</div>
